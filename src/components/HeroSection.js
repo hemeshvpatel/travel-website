@@ -15,6 +15,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          linkAddress="/sign-up"
         >
           GET STARTED
         </Button>
@@ -22,6 +23,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          linkAddress="/trailer"
         >
           WATCH TRAILER <i className="far fa-play-circle" />
         </Button>
