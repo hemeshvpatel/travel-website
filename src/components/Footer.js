@@ -25,9 +25,9 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class="footer-links">
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/">How it works</Link>
             <Link to="/">Testimonials</Link>
@@ -35,7 +35,7 @@ function Footer() {
             <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
@@ -44,14 +44,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Videos</h2>
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
@@ -60,56 +60,60 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               TRVL
-              <i class="fab fa-typo3" />
+              <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
-          <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="https://www.facebook.com"
+          <small className="website-rights">TRVL © 2020</small>
+          <div className="social-icons">
+            <a
+              href="https://www.facebook.com"
+              className="social-icon-link facebook"
               target="_blank"
-              aria-label="Facebook"
+              rel="noreferrer"
             >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
+              <i className="fab fa-facebook-f" />
+            </a>
+
+            <a
+              href="https://www.instagram.com"
+              className="social-icon-link instagram "
               target="_blank"
-              aria-label="Instagram"
+              rel="noreferrer"
             >
-              <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
+              <i className="fab fa-instagram" />
+            </a>
+
+            <a
+              href="https://www.youtube.com"
+              className="social-icon-link youtube"
               target="_blank"
-              aria-label="Youtube"
+              rel="noreferrer"
             >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+              <i className="fab fa-youtube" />
+            </a>
+
+            <a
+              href="https://www.twitter.com"
+              className="social-icon-link twitter"
               target="_blank"
-              aria-label="Twitter"
+              rel="noreferrer"
             >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+              <i className="fab fa-twitter" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com"
+              className="social-icon-link linkedin"
               target="_blank"
-              aria-label="LinkedIn"
+              rel="noreferrer"
             >
-              <i class="fab fa-linkedin" />
-            </Link>
+              <i className="fab fa-linkedin" />
+            </a>
           </div>
         </div>
       </section>
